@@ -5,4 +5,6 @@ module org.example.basiccalculator {
 
     opens org.example.basiccalculator to javafx.fxml;
     exports org.example.basiccalculator;
+    exports org.example.basiccalculator.controller;
+    opens org.example.basiccalculator.controller to javafx.fxml;
 }

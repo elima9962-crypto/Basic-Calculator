@@ -1,4 +1,4 @@
-package org.example.basiccalculator;
+package org.example.basiccalculator.controller;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
