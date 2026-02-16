@@ -1,6 +1,7 @@
 module org.example.basiccalculator {
     requires javafx.controls;
     requires javafx.fxml;
+    requires java.desktop;
 
 
     opens org.example.basiccalculator to javafx.fxml;
