@@ -6,8 +6,6 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import org.example.basiccalculator.model.Calculator;
 
-import javax.swing.*;
-
 public class Calculator_Controller {
 
     @FXML
@@ -17,7 +15,7 @@ public class Calculator_Controller {
     private String operator = "";
     private boolean start = true;
     @FXML
-    protected void onNumeroClicked(ActionEvent event) {
+    protected void onNumberClicked(ActionEvent event) {
         String number = ((Button)event.getSource()).getText();
         if (start) {
             display.setText(number);
